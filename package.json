@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ferkat0316/cucumber-protractor-e2e"
+    "url": "https://github.com/testingDevGuru/cucumber-protractor-e2e"
   },
   "keywords": [
     "Protractor",
@@ -36,7 +36,7 @@
       "email": "hahmim@gmail.com"
     }
   ],
-  "homepage": "https://github.com/ferkat0316/cucumber-protractor-e2e",
+  "homepage": "https://github.com/testingDevGuru/cucumber-protractor-e2e",
   "dependencies": {
     "chai": "~3.5.0",
     "cucumber": "~1.3.1",
