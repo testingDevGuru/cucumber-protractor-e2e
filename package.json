@@ -1,0 +1,56 @@
+{
+  "name": "cucumber-protractor-e2e",
+  "version": "0.0.1",
+  "description": "Full end to end testing framework using CucumberJs, Protractor, PgJs, SuperAgent for e2e testing which includes API, DB and functional in page object model.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webdriver": "webdriver-manager update --standalone --versions.standalone=3.4.0 && webdriver-manager start --versions.standalone=3.4.0"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ferkat0316/cucumber-protractor-e2e"
+  },
+  "keywords": [
+    "Protractor",
+    "Cucumber",
+    "e2e",
+    "postgreSql",
+    "Rest",
+    "API",
+    "testing",
+    "Angular",
+    "Non-Angular",
+    "Functional",
+    "testing"
+  ],
+  "author": "Ferkat Jawdat, Hakim Ahmim",
+  "contributors": [
+    {
+      "name": "Ferkat Jawdat",
+      "email": "ferkat0321@gmail.com"
+    },
+    {
+      "name": "Hakim Ahmim",
+      "email": "hahmim@gmail.com"
+    }
+  ],
+  "homepage": "https://github.com/ferkat0316/cucumber-protractor-e2e",
+  "dependencies": {
+    "chai": "~3.5.0",
+    "cucumber": "~1.3.1",
+    "jasmine": "^2.5.3",
+    "phantomjs-prebuilt": "^2.1.14",
+    "protractor": "~5.1.1",
+    "protractor-cucumber-framework": "~3.1.0"
+  },
+  "devDependencies": {
+    "chai-as-promised": "~6.0.0",
+    "cucumberjs-allure-reporter": "~1.0.2",
+    "node-rest-client": "^3.1.0",
+    "pg": "~6.1.5",
+    "superagent": "^3.5.2"
+  },
+  "license": "ISC"
+}
